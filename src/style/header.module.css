@@ -1,0 +1,21 @@
+.header{
+    height: 74px;
+}
+button{
+    font-family: 'Inter', sans-serif;
+    /*font-size: 16px;*/
+    /*line-height: 140%;*/
+    /*height: 22px;*/
+    /*width: 86px;*/
+    background-color: #FFF;
+    color: #232323;
+    border: #ffffff;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 22px;
+    border-bottom: solid #D1D1D1 1px;
+
+}

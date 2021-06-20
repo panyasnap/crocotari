@@ -1,0 +1,52 @@
+/* Rectangle 200 */
+
+
+.backgroundClub{
+
+    background: #E8E2DC;
+    height: 504px;
+}
+.blockClub{
+    background-color: #FFFFFF;
+    height: 320px;
+    width: 1028px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.textH2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.moreBtn{
+    background-color: #232323;
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 49px;
+    width: 190px;
+}
+@media (max-width: 767px){
+    .moreBtn{
+        background-color: #232323;
+        border-radius: 5px;
+        color: #FFFFFF;
+        height: 49px;
+        width: 190px;
+        display: none;
+    }
+
+    .textH2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .backgroundClub{
+        background: #E8E2DC;
+        height:215px;
+    }
+    .blockClub{
+        background-color: #FFFFFF;
+        height: 108px;
+        width: 268px;
+        box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    }
+}

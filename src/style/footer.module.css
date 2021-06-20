@@ -1,0 +1,41 @@
+.footerTop {
+    background: #FAFAFA;
+    list-style: none;
+}
+
+.footerBottom {
+    background: #232323;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+}
+
+li {
+    list-style: none;
+}
+
+.textLi {
+    font-weight: 600;
+}
+
+.contactMobil {
+
+}
+
+@media (max-width: 575px) {
+    .contactMobil {
+        display: none;
+    }
+
+}
+
+@media (max-width: 766px) {
+    .contactMobil {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 766px) {
+    .logoMobil {
+        height: 50%;
+    }
+}
