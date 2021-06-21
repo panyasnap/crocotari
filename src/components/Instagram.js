@@ -30,14 +30,14 @@ const Instagram = () => {
 :
             <div>
                 <div className={`d-flex`}>
-                    <img className={`${style.img1} col-4 `} src={img1} alt='img'/>
-                    <img className={`${style.img2} col-4 `} src={img2} alt='img'/>
-                    <img className={`${style.test3} col-4 ` } src={img3} alt='img'/>
+                    <img className={`${style.img1} col-4 h-100`} src={img1} alt='img'/>
+                    <img className={`${style.img2} col-4 h-100`} src={img2} alt='img'/>
+                    <img className={`col-4 h-100` } src={img3} alt='img'/>
                 </div>
                 <div className={`d-flex pt-2`}>
-                    <img className={`${style.img1} col-4 `} src={img4} alt='img'/>
-                    <img className={`${style.img2} col-4 `} src={img5} alt='img'/>
-                    <img className='col-4 ' src={img6} alt='img'/>
+                    <img className={`${style.img1} col-4 h-100`} src={img4} alt='img'/>
+                    <img className={`${style.img2} col-4 h-100 `} src={img5} alt='img'/>
+                    <img className='col-4 h-100 ' src={img6} alt='img'/>
                 </div>
             </div>}
 
