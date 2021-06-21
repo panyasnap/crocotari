@@ -23,3 +23,16 @@
 .pagination{
     cursor: pointer;
 }
+@media (max-width: 1200px) {
+    .h1Text{
+        position: absolute;
+        width: 352px;
+        height: 116px;
+        left: 10%;
+        top: 30%;
+        font-size: 48px;
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        transform: translate(5%, -150%);
+    }
+}
