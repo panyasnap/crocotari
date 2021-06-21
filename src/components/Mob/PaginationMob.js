@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import {imgMob} from "../../utils/utils";
 import style from '../../style/mobil.module.css';
-import arrow from '../../img/Frame (2).png'
 import {context} from "../../utils/context";
 
 
@@ -51,7 +50,7 @@ function Pagination({data, RenderComponent, pageLimit, dataLimit}) {
             <div className='container mt-3 '>
                 <div className='d-flex justify-content-center align-self-center pb-5'>
                     <button className={`${style.catalogMobBtn}  `}>В
-                        КАТАЛОГ <img src={arrow} alt='arrow'/></button>
+                        КАТАЛОГ </button>
                 </div>
 
             </div>

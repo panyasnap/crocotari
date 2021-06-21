@@ -23,9 +23,10 @@
 .pagination{
     cursor: pointer;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1080px) {
     .h1Text{
         position: absolute;
+        display: flex;
         width: 352px;
         height: 116px;
         left: 10%;
@@ -34,5 +35,19 @@
         font-family: Inter, sans-serif;
         font-weight: 300;
         transform: translate(5%, -150%);
+    }
+}
+@media (max-height: 768px) {
+    .h1Text{
+        position: absolute;
+        display: flex;
+        width: 352px;
+        height: 116px;
+        left: 10%;
+        top: 30%;
+        font-size: 48px;
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        transform: translate(5%, -50%);
     }
 }

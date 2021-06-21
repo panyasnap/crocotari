@@ -5,7 +5,7 @@ import style from '../style/main.module.css'
 const ImagePage = ({data}) => {
     return (
         <div>
-            <img className={`${style.mainImg} w-100`} src={data} alt=''/>
+            <img className={`${style.mainImg} w-100`} src={data} alt='bag'/>
             <h1 className={`${style.h1Text}`}>Преимущество магазина</h1>
         </div>
     );

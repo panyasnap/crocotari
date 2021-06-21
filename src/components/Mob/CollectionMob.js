@@ -9,7 +9,7 @@ const CollectionMob = () => {
         <div className={`${style.blockMobil} `}>
             <div className='container pt-3 pb-5'>
 
-                <p className='mt-5 '>Мужская коллекция</p>
+                <p className='mt-4 '>Мужская коллекция</p>
                 <img className={` col-12 `} src={man} alt='man'/>
                 <div className='d-flex justify-content-end'>
                     <button
