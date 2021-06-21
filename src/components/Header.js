@@ -21,9 +21,9 @@ const Header = () => {
                         <input className='col-sm-7 col-lg-7 col-xl-7 ' placeholder={'Введите запрос'}
                                type="text"/>
                         <div className='col-sm-5 col-lg-5 col-xl-5 row'>
-                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4'><img src={frame} alt='search'/></div>
-                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4'><img src={contact} alt='contact'/></div>
-                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4'><img src={shop} alt='shop'/></div>
+                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 cursor'><img src={frame} alt='search'/></div>
+                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 cursor'><img src={contact} alt='contact'/></div>
+                            <div className='col-sm-4 col-md-4 col-lg-4 col-xl-4 cursor'><img src={shop} alt='shop'/></div>
                         </div>
                     </div>
                 </div>
