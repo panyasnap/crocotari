@@ -14,16 +14,16 @@
     height: 116px;
     left: 10%;
     top: 30%;
-    font-size: 48px;
+    font-size: 3.3rem;
     font-family: Inter, sans-serif;
     font-weight: 300;
-    transform: translate(5%, -10%);
+    transform: translate(0%, 20%);
 }
 
 .pagination{
     cursor: pointer;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1074px) {
     .h1Text{
         position: absolute;
         display: flex;
@@ -31,7 +31,7 @@
         height: 116px;
         left: 10%;
         top: 30%;
-        font-size: 48px;
+        font-size: 3.3rem;
         font-family: Inter, sans-serif;
         font-weight: 300;
         transform: translate(5%, -150%);
@@ -45,7 +45,7 @@
         height: 116px;
         left: 10%;
         top: 30%;
-        font-size: 48px;
+        font-size: 3.3rem;
         font-family: Inter, sans-serif;
         font-weight: 300;
         transform: translate(5%, -50%);

@@ -1,4 +1,12 @@
 .cursor{
     cursor: pointer;
 }
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 

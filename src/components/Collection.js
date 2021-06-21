@@ -9,25 +9,25 @@ const Collection = () => {
         <div className='jumbotron-fluid mt-5 mb-5'>
 
             <div className='container'>
-                <h1 className='mt-5 mb-5'>Коллекции</h1>
+                <h2 className='mt-5 mb-5'>Коллекции</h2>
                 <div className={`${style.imgBlock} row mt-5 `}>
                     <div className={`${style.imgPositionMan} col-6`}>
 
                         <img className={` col-12 `} src={man} alt='man'/>
                         <div className={`${style.blockMan}  col-12 w-100`}>
-                            <div className='text-center '>Мужская коллекция <button
+                            <h3 className='text-center '>Мужская коллекция <button
                                 className={`${style.catalogBtn} mt-5`}>В КАТАЛОГ <img src={frame} alt='frame'/>
-                            </button></div>
+                            </button></h3>
                         </div>
                     </div>
 
                     <div className={`${style.imgPositionWomen} col-6 container`}>
                         <img className='col-12 ' src={woman} alt='woman'/>
-                        <div className={` col-6`}>
-                            <div className={`${style.blockWoman} text-center justify-content-around`}>Женская коллекция
+                        <div className={`${style.blockWoman} col-6 `}>
+                            <h3 className={` text-center `}>Женская коллекция
                                 <button className={`${style.catalogBtn} mt-5 mr-2`}>В КАТАЛОГ <img src={frame}
                                                                                                    alt='frame'/>
-                                </button></div>
+                                </button></h3>
                         </div>
                     </div>
                 </div>
