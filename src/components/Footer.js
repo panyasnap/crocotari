@@ -23,19 +23,19 @@ const Footer = () => {
                             className={`${style.contactMobil} row col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-ld-3 offset-sm-1 offset-md-2 mt-5`}>
                             <ul className='col-sm-4  col-lg-4 col-xl-4 '>
                                 <li className={`${style.textLi}`}>Клиентам</li>
-                                <li className='cursor'>Доставка</li>
-                                <li className='cursor'>Возврат</li>
-                                <li className='cursor'>Клубная карта</li>
+                                <li className='cursor mt-2'>Доставка</li>
+                                <li className='cursor mt-1'>Возврат</li>
+                                <li className='cursor mt-1'>Клубная карта</li>
                             </ul>
                             <ul className='col-sm-4 col-lg-4 col-xl-4'>
                                 <li className={`${style.textLi}`}>Каталог</li>
-                                <li className='cursor'>Женщинам</li>
-                                <li className='cursor'>Мужчинам</li>
+                                <li className='cursor mt-2'>Женщинам</li>
+                                <li className='cursor mt-1'>Мужчинам</li>
                             </ul>
                             <ul className='col-sm-4 col-lg-4 col-xl-4'>
                                 <li className={`${style.textLi}`}>Контакты</li>
-                                <li className='cursor'>Адреса магазинов</li>
-                                <li className='cursor'>Личный кабинет</li>
+                                <li className='cursor mt-2'>Адреса магазинов</li>
+                                <li className='cursor mt-1'>Личный кабинет</li>
                             </ul>
                         </div>
                     </div>
