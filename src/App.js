@@ -16,7 +16,7 @@ function App() {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
-    const [openBurger, setOpenBurger] = useState(true);
+    const [openBurger, setOpenBurger] = useState(false);
 
     const burgerMenu = () => {
         openBurger ? closeBurgerMenu() : openBurgerMenu()

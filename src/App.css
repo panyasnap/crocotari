@@ -204,7 +204,7 @@ h3 {
 
 
 .headerMob {
-    /*position: fixed;*/
+    position: fixed;
     height: 74px;
     display: flex;
     align-items: center;
