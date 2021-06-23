@@ -12,15 +12,18 @@ const Footer = () => {
         <div>
             <div className={`${style.footerTop} `}>
                 <div className='container'>
-                    <div className='row col-sm-12 col-lg-12 col-xl-12 d-flex'>
+                    <div
+                        className={`row col-sm-12 col-lg-12 col-xl-12 d-flex ${windowWidth < 575 ? 'justify-content-center p-0 m-0' : 'justify-content-around'}`}>
                         {windowWidth > 575 ?
-                       <div className={`${style.logoMobil} col-sm-5 col-md-4 col-lg-3 col-xl-3 `}> <img className=' mt-5 mb-5 w-100 ' src={logo1} alt='logo'/></div>
+                            <div className={`${style.logoMobil} col-sm-5 col-md-4 col-lg-3 col-xl-3 `}><img
+                                className=' mt-5 mb-5 w-100 ' src={logo1} alt='logo'/></div>
                             :
 
-                        <div className={`${style.logoMobil} d-flex justify-content-center  `}> <img className='col-sm-4 col-md-4 col-lg-3 col-xl-3 mt-3 mb-3 ' src={logo} alt='logo'/></div>
+                            <div className={`${style.logoMobil} d-flex justify-content-center align-items-center `}><img
+                                className='col-sm-4 col-md-4 col-lg-3 col-xl-3 mt-3 mb-3 ' src={logo} alt='logo'/></div>
                         }
                         <div
-                            className={`${style.contactMobil} row col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-ld-3 offset-sm-1 offset-md-2 mt-5`}>
+                            className={`${style.contactMobil} row col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-ld-3 offset-sm-1 offset-md-2 mt-5 p-0`}>
                             <ul className='col-sm-4  col-lg-4 col-xl-4 '>
                                 <li className={`${style.textLi}`}>Клиентам</li>
                                 <li className='cursor mt-2'>Доставка</li>
@@ -42,17 +45,17 @@ const Footer = () => {
                 </div>
             </div>
             {windowWidth > 767 ?
-                <div className={`${style.footerBottom} `}>
-                    <div className='container '>
-                        <div className='row col-sm-12 col-lg-12 col-xl-12 '>
-                            <div className='col-sm-2 col-lg-2 col-xl-2 mt-4 mb-4'>© 2021 Crocotari</div>
+                <div className={`${style.footerBottomMob}  `}>
+                    <div className={`container  ${style.footerBottom} `}>
+                        <div className='row  d-flex justify-content-between pt-4'>
+                            <div className='col-sm-2 col-lg-2 col-xl-2 '>© 2021 Crocotari</div>
                             <div
-                                className='col-sm-3 col-lg-3 col-xl-3 offset-2 offset-md-2 offset-sm-0 mt-4 mb-4 cursor'>Политика
+                                className='col-sm-3 col-lg-3 col-xl-3 offset-2 offset-md-2 offset-sm-0 cursor'>Политика
                                 конфиденциальности
                             </div>
-                            <div className='col-sm-3 col-lg-3 col-xl-3 mt-4 mb-4 cursor'>Пользовательское соглашение</div>
-                            <div className='col-sm-2 col-lg-2 col-xl-2 mt-4 mb-4 row'>
-                                <div className='col-sm-6 col-lg-6 col-xl-6 ml-2 cursor'>
+                            <div className='col-sm-3 col-lg-3 col-xl-3  cursor'>Пользовательское соглашение</div>
+                            <div className='col-sm-2 col-lg-2 col-xl-2  d-flex justify-content-between  row'>
+                                <div className='col-sm-6 col-lg-6 col-xl-6 cursor '>
                                     <img src={vk} alt='vk'/></div>
                                 <div className='col-sm-6 col-lg-6 col-xl-6 cursor'>
                                     <img src={inst} alt='inst'/></div>
@@ -61,13 +64,13 @@ const Footer = () => {
                         </div>
 
                     </div>
-                </div> : <div className={`${style.footerBottom} `}>
+                </div> : <div className={`${style.footerBottomMob} `}>
                     <div className='container '>
-                        <div className='сol-12  pt-3'>
-                            <div className='row d-flex justify-content-center '>
-                                <div className='col-auto mt-2'>
+                        <div className='  pt-2'>
+                            <div className='row d-flex justify-content-center  '>
+                                <div className='col-auto p-2'>
                                     <img src={vk} alt='vk'/></div>
-                                <div className=' col-auto mt-2'>
+                                <div className=' col-auto p-2'>
                                     <img src={inst} alt='inst'/></div>
                             </div>
 

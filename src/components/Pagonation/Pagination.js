@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
-import {context} from "../utils/context";
-import {img} from "../utils/utils";
-import left from "../img/Component 2.png";
-import right from "../img/Component 1.png";
-import style from '../style/main.module.css';
-import arrow from '../img/Frame (2).png'
+import {context} from "../../utils/context";
+import {images} from "../../utils/utils";
+import left from "../../img/Component 2.png";
+import right from "../../img/Component 1.png";
+import style from '../../style/main.module.css';
+import arrow from '../../img/Frame (2).png'
 
 
 
@@ -53,7 +53,7 @@ function Pagination({data, RenderComponent, pageLimit, dataLimit}) {
                     <RenderComponent
                         key={index}
                         data={data}
-                         img={img}
+                         img={images}
                     />
                 ))}
             </div>

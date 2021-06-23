@@ -1,18 +1,240 @@
-.cursor{
+.cursor {
     cursor: pointer;
 }
-h2{
+
+h2 {
     font-size: 3rem;
     font-weight: 300;
+
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
     font-weight: 300;
 }
 
-@media  (max-width: 990px)  {
-    h2{
+@media (max-width: 990px) {
+    h2 {
         font-size: 1.5rem;
         font-weight: 400;
     }
+}
+
+.carouselStyle .carousel-indicators {
+    display: none;
+
+}
+
+.carouselStyle .carousel-control-next-icon {
+    background-image: url("./img/Component 1.png");
+    width: 55px;
+    height: 55px;
+    margin-right: 35%;
+
+
+}
+
+.carouselStyle .carousel-control-prev-icon {
+    background-image: url("./img/Component 2.png");
+    width: 55px;
+    height: 55px;
+    margin-left: 40%;
+
+}
+
+.carouselStyle .carousel-control-prev, .carousel-control-next {
+
+    position: relative;
+    display: flex;
+    opacity: 100;
+    top: 65%;
+    float: left;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: -3%;
+
+
+}
+
+.carouselStyle .carousel-control-prev, .carousel-control-next {
+
+    position: relative;
+    display: flex;
+    opacity: 100;
+    top: 65%;
+    float: left;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: -3%;
+
+
+}
+
+.carouselStyle .carousel-caption {
+    right: 55%;
+    left: 10%;
+    bottom: 40%;
+    color: #232323;
+    font-weight: 400;
+    width: 50%;
+    text-align: left;
+
+}
+
+.carouselStyle .carousel-caption h2 {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: #232323;
+    font-weight: 400;
+    width: 50%;
+}
+
+.carouselStyle {
+    margin-bottom: 14%;
+}
+
+
+.carouselMob .carousel-indicators {
+    display: none;
+
+}
+
+.carouselMob .carousel-control-next-icon {
+    background-image: url("./img/Component 1.png");
+    width: 50px;
+    height: 50px;
+
+    float: left;
+    margin-left: 20%;
+
+}
+
+.carouselMob .carousel-control-prev-icon {
+    background-image: url("./img/Component 2.png");
+    width: 50px;
+    height: 50px;
+    margin-right: 20%;
+
+    float: right;
+    top: 50%
+
+}
+
+@media (max-width: 767px) {
+
+
+    .carouselMob .carousel-control-prev, .carousel-control-next {
+
+        position: absolute;
+        display: flex;
+        opacity: 100;
+        top: 0;
+        bottom: 0;
+        width: 30%;
+        justify-content: center;
+
+
+        padding-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+    /*.carouselMob{*/
+    /*    padding: 0 0 0 0;*/
+    /*}*/
+}
+
+
+.headerBurger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+
+.headerBurger:before,
+.headerBurger:after {
+    content: '';
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.headerBurger:before {
+    top: 0
+}
+
+.headerBurger:after {
+    bottom: 0;
+
+}
+
+.headerBurger span {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.headerBurger.active:before {
+    transform: rotate(45deg);
+    top: 10px
+}
+
+.headerBurger.active:after {
+    transform: rotate(-45deg);
+    bottom: 10px;
+
+}
+
+.headerBurger.active span {
+    transform: scale(0);
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+.headerMob {
+    /*position: fixed;*/
+    height: 74px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
+.headerMob.unl {
+    position: fixed;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.burger {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: margin .5s;
+    margin: 0 0 0 -250px;
+
+
+}
+
+.burger.is-nav-open {
+    margin-left: 0;
 }

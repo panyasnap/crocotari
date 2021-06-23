@@ -6,6 +6,6 @@ import imgMob2 from '../img/1 (16) 2.png';
 import imgMob3 from '../img/1 (49) 4.png'
 
 
-export const img  = [img1, img2, img3];
+export const images  = [img1, img2, img3];
 
 export const imgMob = [imgMob1, imgMob2, imgMob3];

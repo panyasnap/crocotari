@@ -6,7 +6,16 @@
 .footerBottom {
     background: #232323;
     color: #FFFFFF;
+    font-size: 0.75rem;
+    height: 72px;
+
+}
+.footerBottomMob {
+    background: #232323;
+    color: #FFFFFF;
     font-size: 0.7rem;
+
+
 }
 
 li {

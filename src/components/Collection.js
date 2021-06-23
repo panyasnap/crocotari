@@ -11,24 +11,27 @@ const Collection = () => {
             <div className='container'>
                 <h2 className='mt-5 mb-5'>Коллекции</h2>
                 <div className={`${style.imgBlock} row mt-5 `}>
-                    <div className={`${style.imgPositionMan} col-6`}>
+                    <div className={`${style.imgPositionMan} pr-2`}>
 
-                        <img className={` col-12 `} src={man} alt='man'/>
-                        <div className={`${style.blockMan}  col-12 w-100`}>
-                            <h3 className='text-center '>Мужская коллекция <button
-                                className={`${style.catalogBtn} mt-5`}>В КАТАЛОГ <img src={frame} alt='frame'/>
-                            </button></h3>
-                        </div>
+                            <img className=' w-100' src={man} alt='man'/>
+                            <div className={`${style.blockMan} `}>
+                                <h3 className='text-center '>Мужская коллекция <button
+                                    className={`${style.catalogBtn} mt-5`}>В КАТАЛОГ <img src={frame} alt='frame'/>
+                                </button></h3>
+                            </div>
+
                     </div>
 
-                    <div className={`${style.imgPositionWomen} col-6 container`}>
-                        <img className='col-12 ' src={woman} alt='woman'/>
-                        <div className={`${style.blockWoman} col-6 `}>
-                            <h3 className={` text-center `}>Женская коллекция
-                                <button className={`${style.catalogBtn} mt-5 mr-2`}>В КАТАЛОГ <img src={frame}
+                    <div className={`${style.imgPositionWomen} pl-2 `}>
+
+                            <img className=' w-100' src={woman} alt='woman'/>
+                            <div className={`${style.blockWoman}`}>
+                                <h3 className={` text-center `}>Женская коллекция
+                                    <button className={`${style.catalogBtn} mt-5 `}>В КАТАЛОГ <img src={frame}
                                                                                                    alt='frame'/>
-                                </button></h3>
-                        </div>
+                                    </button></h3>
+                            </div>
+
                     </div>
                 </div>
             </div>

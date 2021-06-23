@@ -12,36 +12,39 @@ const Instagram = () => {
     const {windowWidth} = useContext(context);
     return (
 
-        <div className='container mb-5 '>
-            <h2 className='mt-5 mb-5 d-flex justify-content-between'>Мы в Инстаграм</h2>
-            {windowWidth > 990 ?
-                <div>
-                    <div className={`row col-sm-12 col-lg-12 col-xl-12 `}>
-                        <img className='col-4' src={img1} alt='img'/>
-                        <img className='col-4' src={img2} alt='img'/>
-                        <img className='col-4' src={img3} alt='img'/>
+        <div className={`${style.containerTest}`}>
+            <div className='container mb-5 p-0'>
+                <h2 className='mt-5 mb-5 d-flex justify-content-between'>Мы в Инстаграм</h2>
+                {windowWidth > 990 ?
+                    <div>
+                        <div className={`row col-sm-12 col-lg-12 col-xl-12 `}>
+                            <img className='col-4' src={img1} alt='img'/>
+                            <img className='col-4' src={img2} alt='img'/>
+                            <img className='col-4' src={img3} alt='img'/>
+                        </div>
+                        <div className={`row col-sm-12 col-lg-12 col-xl-12 pt-4`}>
+                            <img className='col-4' src={img4} alt='img'/>
+                            <img className='col-4' src={img5} alt='img'/>
+                            <img className='col-4 ' src={img6} alt='img'/>
+                        </div>
                     </div>
-                    <div className={`row col-sm-12 col-lg-12 col-xl-12 pt-4`}>
-                        <img className='col-4' src={img4} alt='img'/>
-                        <img className='col-4' src={img5} alt='img'/>
-                        <img className='col-4 ' src={img6} alt='img'/>
-                    </div>
-                </div>
-:
-            <div>
-                <div className={`d-flex`}>
-                    <img className={`${style.img1} col-4 h-100`} src={img1} alt='img'/>
-                    <img className={`${style.img2} col-4 h-100`} src={img2} alt='img'/>
-                    <img className={`col-4 h-100` } src={img3} alt='img'/>
-                </div>
-                <div className={`d-flex pt-2`}>
-                    <img className={`${style.img1} col-4 h-100`} src={img4} alt='img'/>
-                    <img className={`${style.img2} col-4 h-100 `} src={img5} alt='img'/>
-                    <img className='col-4 h-100 ' src={img6} alt='img'/>
-                </div>
-            </div>}
+                    :
+                    <div className='containerTest'>
+                        <div className={`d-flex `}>
+                            <img className={`${style.img1} col-4 h-100`} src={img1} alt='img'/>
+                            <img className={`${style.img2} col-4 h-100`} src={img2} alt='img'/>
+                            <img className={`${style.img3} col-4 h-100 `} src={img3} alt='img'/>
+                        </div>
+                        <div className={`d-flex mt-3`}>
+                            <img className={`${style.img1} col-4 h-100`} src={img4} alt='img'/>
+                            <img className={`${style.img2} col-4 h-100 `} src={img5} alt='img'/>
+                            <img className={`${style.img3} col-4 h-100 `} src={img6} alt='img'/>
+                        </div>
+                    </div>}
 
+            </div>
         </div>
+
     );
 };
 
