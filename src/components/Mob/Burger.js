@@ -6,12 +6,12 @@ const Burger = (props) => {
     const {openBurger} = useContext(context);
     return (
 
-        <div >
-            <div className={`burger ${openBurger? 'is-nav-open' : null}`} >
+        <div>
+            <div className={`burger ${openBurger ? 'is-nav-open' : null}`}>
                 <nav className={`${style.headerMenu}  pt-4`}>
-                    <div > <a>Женщинам</a></div>
-                    <div> <a>Мужчинам</a></div>
-                    <div> <a>Контакты</a></div>
+                    <div><a>Женщинам</a></div>
+                    <div><a>Мужчинам</a></div>
+                    <div><a>Контакты</a></div>
                 </nav>
             </div>
 
