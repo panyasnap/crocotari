@@ -8,6 +8,7 @@
     position: relative;
     width: 49%;
     padding: 0;
+
 }
 .imgBlock{
     padding: 0 0 100px 0;
@@ -15,7 +16,7 @@
 .blockMan,
 .blockWoman {
     position: absolute;
-    width: 100%;
+    width: 98.4%;
     height: 128px;
     /*color: #232323;*/
     bottom: 0;
@@ -34,7 +35,7 @@
 .catalogBtn {
     padding-left: 80px;
     color: #232323;
-    width: 310px;
+    /*width: 310px;*/
     height: 50px;
     background-color: #FAFAFA;
     font-size: 1.1rem;
