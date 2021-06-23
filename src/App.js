@@ -16,9 +16,23 @@ function App() {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
-    const [openBurger, setOpenBurger] = useState(false);
+    const [openBurger, setOpenBurger] = useState(true);
 
-    const burgerMenu = () => setOpenBurger(!openBurger)
+    const burgerMenu = () => {
+        openBurger ? closeBurgerMenu() : openBurgerMenu()
+    }
+    const closeBurgerMenu = () => {
+        setOpenBurger(false)
+        if (document.body.style.overflow === "hidden") {
+            document.body.style.overflow = "auto"
+        }
+    }
+    const openBurgerMenu = () => {
+        setOpenBurger(true)
+        if (document.body.style.overflow !== "hidden") {
+            document.body.style.overflow = "hidden";
+        }
+    }
     const handleResize = () => {
         setWindowWidth(window.innerWidth);
     };
