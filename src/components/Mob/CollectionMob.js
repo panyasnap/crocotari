@@ -10,14 +10,14 @@ const CollectionMob = () => {
             <div className='container pt-3 pb-5'>
 
                 <p className='mt-4 '>Мужская коллекция</p>
-                <img className={` col-12 `} src={man} alt='man'/>
+                <img className={`  w-100 `} src={man} alt='man'/>
                 <div className='d-flex justify-content-end'>
                     <button
                         className={`${style.mobilBtn} `}>В КАТАЛОГ <img src={frame} alt='frame'/>
                     </button>
                 </div>
                 <p className='mt-2 '>Женская коллекция</p>
-                <img className='col-12 ' src={woman} alt='woman'/>
+                <img className=' w-100' src={woman} alt='woman'/>
                 <div className='d-flex justify-content-end'>
                     <button
                         className={`${style.mobilBtn} `}>В КАТАЛОГ <img src={frame} alt='frame'/>

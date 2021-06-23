@@ -1,5 +1,7 @@
-.header{
+.headerMain{
     height: 74px;
+    display: flex;
+    align-items: center;
 }
 button{
     font-family: 'Inter', sans-serif;
@@ -20,7 +22,8 @@ input{
     border-bottom: solid #D1D1D1 1px;
 
 }
-@media (max-width: 991px) {
+
+@media (max-width: 1299px) {
     button{
         font-family: 'Inter', sans-serif;
         font-size: 0.8rem;
@@ -32,3 +35,4 @@ input{
         border: #ffffff;
     }
 }
+

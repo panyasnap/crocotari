@@ -1,7 +1,7 @@
 import React from 'react';
 import Pagination from "./Pagination";
-import {img} from "../utils/utils";
-import ImagePage from "./ImagePage";
+import {images} from "../../utils/utils";
+import ImagePage from "../ImagePage";
 
 
 const Main = () => {
@@ -9,9 +9,9 @@ const Main = () => {
         <div className='m-0'>
             {/*<ImagePage/>*/}
             <Pagination
-                data={img}
+                data={images}
                 RenderComponent={ImagePage}
-                pageLimit={Math.round(img.length / 3)}
+                pageLimit={Math.round(images.length / 3)}
                 dataLimit={1}
             />
         </div>
