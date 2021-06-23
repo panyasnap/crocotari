@@ -79,6 +79,7 @@ h3 {
     width: 50%;
     text-align: left;
 
+
 }
 
 .carouselStyle .carousel-caption h2 {
@@ -87,6 +88,7 @@ h3 {
     color: #232323;
     font-weight: 400;
     width: 50%;
+
 }
 
 .carouselStyle {
@@ -208,7 +210,7 @@ h3 {
     height: 74px;
     display: flex;
     align-items: center;
-    z-index: 5;
+    z-index: 6;
     background-color: #FFFFFF;
     width: 100%;
 
@@ -233,6 +235,7 @@ h3 {
 }
 .headerMenu.is-nav-open{
     margin-left: 0;
+
 }
 
 
@@ -244,3 +247,11 @@ h3 {
         transform: translateX(0);
     }
 }
+/*@keyframes slideClose {*/
+/*    from {*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateX(0);*/
+/*    }*/
+/*}*/

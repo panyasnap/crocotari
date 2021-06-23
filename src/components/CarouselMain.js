@@ -24,11 +24,19 @@ const CarouselMain = () => {
 
 
                     <CarouselItem><img className='d-block w-100' src={img2} alt='bag'/>
-
+                        <Carousel.Caption>
+                            <h2>Преимущество
+                                магазина</h2>
+                        </Carousel.Caption>
                     </CarouselItem>
 
 
-                    <CarouselItem><img className='d-block w-100' src={img3} alt='bag'/></CarouselItem>
+                    <CarouselItem><img className='d-block w-100' src={img3} alt='bag'/>
+                        <Carousel.Caption>
+                            <h2>Преимущество
+                                магазина</h2>
+                        </Carousel.Caption>
+                    </CarouselItem>
 
                 </Carousel>
 

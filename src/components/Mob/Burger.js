@@ -11,8 +11,6 @@ const Burger = () => {
                 <div><a>Мужчинам</a></div>
                 <div><a>Контакты</a></div>
             </nav>
-
-
         </div>
 
     );
