@@ -47,13 +47,13 @@ const Footer = () => {
             {windowWidth > 767 ?
                 <div className={`${style.footerBottomMob}  `}>
                     <div className={`container  ${style.footerBottom} `}>
-                        <div className='row  d-flex justify-content-between pt-4'>
-                            <div className='col-sm-2 col-lg-2 col-xl-2 '>© 2021 Crocotari</div>
+                        <div className='row  d-flex justify-content-between align-content-center pt-4'>
+                            <div className='col-sm-2 col-lg-2 col-xl-2 mt-1'>© 2021 Crocotari</div>
                             <div
-                                className='col-sm-3 col-lg-3 col-xl-3 offset-2 offset-md-2 offset-sm-0 cursor'>Политика
+                                className='col-sm-3 col-lg-3 col-xl-3 offset-2 offset-md-2 offset-sm-0 cursor mt-1'>Политика
                                 конфиденциальности
                             </div>
-                            <div className='col-sm-3 col-lg-3 col-xl-3  cursor'>Пользовательское соглашение</div>
+                            <div className='col-sm-3 col-lg-3 col-xl-3  cursor mt-1'>Пользовательское соглашение</div>
                             <div className='col-sm-2 col-lg-2 col-xl-2  d-flex justify-content-between  row'>
                                 <div className='col-sm-6 col-lg-6 col-xl-6 cursor '>
                                     <img src={vk} alt='vk'/></div>

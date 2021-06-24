@@ -237,6 +237,10 @@ h3 {
     margin-left: 0;
 
 }
+/*.is-nav-open.nav{*/
+/*    margin-left:0px;*/
+/*    animation: slideClose 1s;*/
+/*}*/
 
 
 @keyframes slideOut {
@@ -244,7 +248,7 @@ h3 {
         transform: translateX(100%);
     }
     to {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
 }
 /*@keyframes slideClose {*/

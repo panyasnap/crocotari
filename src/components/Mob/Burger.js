@@ -7,9 +7,11 @@ const Burger = () => {
 
         <div>
             <nav className={`headerMenu ${openBurger ? 'is-nav-open' : null} pt-3`}>
-                <div><a>Женщинам</a></div>
-                <div><a>Мужчинам</a></div>
-                <div><a>Контакты</a></div>
+
+                    <div><a>Женщинам</a></div>
+                    <div><a>Мужчинам</a></div>
+                    <div><a>Контакты</a></div>
+
             </nav>
         </div>
 
